@@ -1,32 +1,31 @@
 # JavaScript API Data Retrieval and Visualization
 
 ## Assignment Overview
-This project is part of the University of Bahrain's course on JavaScript and focuses on retrieving and visualizing student nationality data from the Bahrain Open Data Portal using their public API.
+This project is part of the University of Bahrain's course on JavaScript. It focuses on retrieving and visualizing student nationality data from the Bahrain Open Data Portal using their public API, using both JavaScript and PHP for data fetching.
 
 ## Assignment Details
 
 ### Objective
-In this assignment, we are tasked with creating a JavaScript application that retrieves data from the Bahrain Open Data Portal and displays it in a user-friendly table format. The table is designed to be responsive, ensuring a clean and organized view on various devices.
+In this assignment, we created a web application that retrieves data from the Bahrain Open Data Portal and displays it in a responsive table format. The table uses Pico CSS for responsive design to ensure the content is presented in a user-friendly manner.
 
 ### Dataset
-The dataset provides insights into the composition of the University of Bahrain's student body, focusing specifically on students enrolled in the IT college and studying a Bachelor's program. The data is accessed via a public API, and it includes information about student nationalities.
+The dataset provides insights into the composition of the University of Bahrain's student body, specifically focusing on students enrolled in the IT college and studying a Bachelor's program. The data is accessed via a public API, and it includes information about student nationalities.
 
 - Dataset Link: [University of Bahrain Students Enrollment by Nationality](https://data.gov.bh/explore/dataset/01-statistics-of-students-nationalities_updated)
 
 ### Project Tasks
-1. **Data Retrieval:** Fetch data from the Bahrain Open Data Portal API using JavaScript `fetch` API.
-2. **Data Parsing:** Parse the JSON response to extract relevant information.
-3. **Data Visualization:** Display the parsed data in an HTML table using Pico CSS for responsive design.
+1. **Data Retrieval**: Fetch data from the Bahrain Open Data Portal API using JavaScript (`fetch`) and PHP (`file_get_contents`).
+2. **Data Parsing**: Parse the JSON response to extract relevant information and handle cases where data is unavailable.
+3. **Data Visualization**: Display the parsed data in an HTML table using Pico CSS for responsive design.
 
 ## Team Members
 - **Danah Alkhan** - ID: 202100476
 - **Saeeda Alansary** - ID: 202100476
 
 ## Instructions
-1. Clone the repository to your local machine.
-2. Open the `A3.php` file in your browser to view the project.
-3. Use the API endpoint to retrieve student nationality data.
-4. Display the data in an organized, responsive table format using Pico CSS.
+1. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/DanahMk/CS333-A3.git
 
 
 ## Libraries & Frameworks Used
