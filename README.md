@@ -24,7 +24,7 @@ The dataset provides insights into the composition of the University of Bahrain'
 
 ## Instructions
 1. Clone the repository to your local machine.
-2. Open the `index.html` file in your browser to view the project.
+2. Open the `A3.php` file in your browser to view the project.
 3. Use the API endpoint to retrieve student nationality data.
 4. Display the data in an organized, responsive table format using Pico CSS.
 
