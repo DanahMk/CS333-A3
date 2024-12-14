@@ -83,4 +83,32 @@
         } else {
             // Decode the JSON response
             $results = json_decode($response, true);
-?>
+         // Check if data was successfully fetched and parsed
+            if ($results && isset($results['results'])) {
+                foreach ($results['results'] as $record) {
+                    $year = $record['year'] ?? "N/A";
+                    $semester = $record['semester'] ?? "N/A";
+                    $program = $record['the_programs'] ?? "N/A";
+                    $nationality = $record['nationality'] ?? "N/A";
+                    $college = $record['colleges'] ?? "N/A";
+                    $num_students = $record['number_of_students'] ?? "N/A";
+
+                    echo "<tr>
+                            <td>$year</td>
+                            <td>$semester</td>
+                            <td>$program</td>
+                            <td>$nationality</td>
+                            <td>$college</td>
+                            <td>$num_students</td>
+                          </tr>";
+                }
+            } else {
+                echo "<tr><td colspan='6'>No data available or failed to fetch data</td></tr>";
+            }
+        }
+        ?>
+      </tbody>
+    </table>
+  </main>
+</body>
+</html>
